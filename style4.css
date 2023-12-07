@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:  #d5973b; /* Cambia el color a tu gusto */
+  margin: 0;
+  padding: 0; 
+}
+h1 {
+    text-align: center;
+    background-color: #c94f1f; /* Cambia el color a tu gusto */
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000; /* Cambia el color a tu gusto */
+  }
+ 
+  .CONTACTO {
+    text-align: center;
+    margin-top: 20px;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .CONTACTO form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .CONTACTO label {
+    margin-top: 10px;
+  }
+  
+  .CONTACTO input,
+  .CONTACTO textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .CONTACTO button {
+    background-color: #4CAF50; /* Cambia el color a tu gusto */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .CONTACTO button:hover {
+    background-color: #45a049; /* Cambia el color a tu gusto */
+  }
+  

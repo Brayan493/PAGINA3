@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1d1d; /* Cambia el color a tu gusto */
+  }
+  
+  header {
+    background-color: #c94f1f; /* Cambia el color a tu gusto */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #d5973b; /* Cambia el color a tu gusto */
+    overflow: hidden;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Cambia el color a tu gusto */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Cambia el color a tu gusto */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .contenido-info {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .imagen-tabla {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+  }
+  
